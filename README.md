@@ -34,7 +34,9 @@ about me
 
   Learning by <strong>building, experimenting, and sharing</strong>.<br><br>
 
-  Let's connect, collaborate, and exchange knowledge.
+  Let's connect, collaborate, and exchange knowledge.<br><br>
+
+  [*email me*](mailto:noura.a.althobaiti@gmail.com)
 </p>
 
 </div>
