@@ -1,18 +1,28 @@
-<!--
-    it means start at the top, then move toward the bottom
--->
-<linearGradient id="gradient"
-                x1="0%" y1="0%"
-                x2="0%" y2="100%">
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!--
-    it defines the colors
--->
-<stop offset="0%" stop-color="#0B1020"/>
-<stop offset="50%" stop-color="#172554"/>
-<stop offset="100%" stop-color="#4C1D95"/>
+<!-- GitHub profile header -->
+<svg width="1600" height="500" viewBox="0 0 1600 500"
+     xmlns="http://www.w3.org/2000/svg">
 
-<!--
-    it paints the rectangle using that gradient
--->
-<rect width="1600" height="500" fill="url(#gradient)"/>
+  <!-- Define the gradient -->
+  <defs>
+    <linearGradient id="gradient"
+                    x1="0%" y1="0%"
+                    x2="0%" y2="100%">
+
+      <!-- Top color -->
+      <stop offset="0%" stop-color="#0B1020"/>
+
+      <!-- Middle color -->
+      <stop offset="50%" stop-color="#172554"/>
+
+      <!-- Bottom color -->
+      <stop offset="100%" stop-color="#4C1D95"/>
+
+    </linearGradient>
+  </defs>
+
+  <!-- Draw the background -->
+  <rect width="1600" height="500" fill="url(#gradient)"/>
+
+</svg>
