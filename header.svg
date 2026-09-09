@@ -1,0 +1,18 @@
+<!--
+    it means start at the top, then move toward the bottom
+-->
+<linearGradient id="gradient"
+                x1="0%" y1="0%"
+                x2="0%" y2="100%">
+
+<!--
+    it defines the colors
+-->
+<stop offset="0%" stop-color="#0B1020"/>
+<stop offset="50%" stop-color="#172554"/>
+<stop offset="100%" stop-color="#4C1D95"/>
+
+<!--
+    it paints the rectangle using that gradient
+-->
+<rect width="1600" height="500" fill="url(#gradient)"/>
