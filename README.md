@@ -23,6 +23,10 @@ bg banner
 <!--
 about me
 -->
+<div align="center">
+
+<hr width="70%">
+
 <p>
   Computer Science graduate interested in <strong>Artificial Intelligence</strong>.<br><br>
 
@@ -32,3 +36,5 @@ about me
 
   Let's connect, collaborate, and exchange knowledge.
 </p>
+
+</div>
