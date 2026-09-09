@@ -19,3 +19,16 @@ bg banner
 <p align="center">
   <img src="./header.svg" width="100%" alt="Profile header">
 </p> 
+
+
+<hr>
+
+<p align="center">
+  Computer Science graduate interested in <strong>Artificial Intelligence</strong>.<br><br>
+
+  Currently exploring <strong>machine learning, deep learning, and generative AI</strong>.<br><br>
+
+  Learning by <strong>building, experimenting, and sharing</strong>.<br><br>
+
+  Let's connect, collaborate, and exchange knowledge.
+</p>
