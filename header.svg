@@ -1,51 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- GitHub profile header -->
-<svg width="1600" height="500" viewBox="0 0 1600 500"
+<svg width="1600" height="500"
+     viewBox="0 0 1600 500"
      xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Gradient -->
   <defs>
+
+    <!-- Your existing gradient -->
     <linearGradient id="gradient"
                     x1="0%" y1="100%"
                     x2="0%" y2="0%">
+
       <stop offset="0%" stop-color="#0B1020"/>
       <stop offset="50%" stop-color="#172554"/>
       <stop offset="100%" stop-color="#4C1D95"/>
+
     </linearGradient>
+
+    <!-- Clip the text as it types -->
+    <clipPath id="typingClip">
+
+      <rect x="165" y="185"
+            width="0"
+            height="70">
+
+        <animate
+          attributeName="width"
+          from="0"
+          to="620"
+          dur="3s"
+          begin="0s"
+          fill="freeze"/>
+
+      </rect>
+
+    </clipPath>
+
   </defs>
 
-  <!-- Background -->
-  <rect width="1600" height="500" fill="url(#gradient)"/>
 
+  <!-- ========================= -->
+  <!-- Background -->
+  <!-- ========================= -->
+
+  <rect
+    width="1600"
+    height="500"
+    fill="url(#gradient)"/>
+
+
+  <!-- ========================= -->
   <!-- Terminal prompt -->
+  <!-- ========================= -->
+
   <text
     x="120"
-    y="245"
+    y="235"
     font-family="Fira Code, monospace"
     font-size="48"
     fill="#7EE787">
+
     &gt;
+
   </text>
 
-  <!-- Animated text -->
-  <text
-    x="165"
-    y="245"
-    font-family="Fira Code, monospace"
-    font-size="48"
-    font-weight="600"
-    fill="#E6EDF3">
 
-    <tspan>Hi there, I'm Noura 👋</tspan>
+  <!-- ========================= -->
+  <!-- Typing text -->
+  <!-- ========================= -->
+
+  <g clip-path="url(#typingClip)">
+
+    <text
+      x="165"
+      y="235"
+      font-family="Fira Code, monospace"
+      font-size="48"
+      font-weight="600"
+      fill="#E6EDF3">
+
+      Hi there, I'm Noura 👋
+
+    </text>
+
+  </g>
+
+
+  <!-- ========================= -->
+  <!-- Blinking cursor -->
+  <!-- ========================= -->
+
+  <rect
+    x="790"
+    y="190"
+    width="8"
+    height="55"
+    fill="#E6EDF3">
 
     <animate
       attributeName="opacity"
-      values="0;1"
-      dur="0.01s"
-      begin="0s"
-      fill="freeze" />
+      values="1;0;1"
+      dur="0.8s"
+      repeatCount="indefinite"/>
 
-  </text>
+  </rect>
 
 </svg>
