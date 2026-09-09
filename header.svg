@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- GitHub profile header -->
-<svg width="1600" height="500" viewBox="0 0 1600 500"
+<svg width="1800" height="800" viewBox="0 0 1600 500"
      xmlns="http://www.w3.org/2000/svg">
 
   <!-- Define the gradient -->
@@ -11,13 +11,13 @@
                     x2="0%" y2="100%">
 
       <!-- Top color -->
-      <stop offset="100%" stop-color="#4C1D95"/>
+      <stop offset="0%" stop-color="#4C1D95"/>
 
       <!-- Middle color -->
       <stop offset="50%" stop-color="#172554"/>
 
       <!-- Bottom color -->
-      <stop offset="0%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#0B1020"/>
 
     </linearGradient>
   </defs>
