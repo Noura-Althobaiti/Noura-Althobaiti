@@ -20,10 +20,10 @@ bg banner
   <img src="./header.svg" width="100%" alt="Profile header">
 </p> 
 
-
-<hr>
-
-<p align="center">
+<!--
+about me
+-->
+<p>
   Computer Science graduate interested in <strong>Artificial Intelligence</strong>.<br><br>
 
   Currently exploring <strong>machine learning, deep learning, and generative AI</strong>.<br><br>
