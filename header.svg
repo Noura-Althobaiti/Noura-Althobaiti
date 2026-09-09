@@ -4,25 +4,48 @@
 <svg width="1600" height="500" viewBox="0 0 1600 500"
      xmlns="http://www.w3.org/2000/svg">
 
-  <!-- Define the gradient -->
+  <!-- Gradient -->
   <defs>
     <linearGradient id="gradient"
                     x1="0%" y1="100%"
                     x2="0%" y2="0%">
-
-      <!-- Top color -->
       <stop offset="0%" stop-color="#0B1020"/>
-
-      <!-- Middle color -->
       <stop offset="50%" stop-color="#172554"/>
-
-      <!-- Bottom color -->
       <stop offset="100%" stop-color="#4C1D95"/>
-
     </linearGradient>
   </defs>
 
-  <!-- Draw the background -->
+  <!-- Background -->
   <rect width="1600" height="500" fill="url(#gradient)"/>
+
+  <!-- Terminal prompt -->
+  <text
+    x="120"
+    y="245"
+    font-family="Fira Code, monospace"
+    font-size="48"
+    fill="#7EE787">
+    &gt;
+  </text>
+
+  <!-- Animated text -->
+  <text
+    x="165"
+    y="245"
+    font-family="Fira Code, monospace"
+    font-size="48"
+    font-weight="600"
+    fill="#E6EDF3">
+
+    <tspan>Hi there, I'm Noura 👋</tspan>
+
+    <animate
+      attributeName="opacity"
+      values="0;1"
+      dur="0.01s"
+      begin="0s"
+      fill="freeze" />
+
+  </text>
 
 </svg>
