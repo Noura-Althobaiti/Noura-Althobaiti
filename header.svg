@@ -7,17 +7,17 @@
   <!-- Define the gradient -->
   <defs>
     <linearGradient id="gradient"
-                    x1="0%" y1="0%"
-                    x2="0%" y2="100%">
+                    x1="0%" y1="100%"
+                    x2="0%" y2="0%">
 
       <!-- Top color -->
-      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="0%" stop-color="#0B1020"/>
 
       <!-- Middle color -->
       <stop offset="50%" stop-color="#172554"/>
 
       <!-- Bottom color -->
-      <stop offset="100%" stop-color="#0B1020"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
 
     </linearGradient>
   </defs>
