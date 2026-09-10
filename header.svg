@@ -11,9 +11,14 @@
                     x1="0%" y1="100%"
                     x2="0%" y2="0%">
 
-       <stop offset="0%"   stop-color="#4C1D95" stop-opacity="0"/>
-       <stop offset="50%"  stop-color="#4C1D95" stop-opacity="0.5"/>
-       <stop offset="100%" stop-color="#4C1D95" stop-opacity="1"/>
+          <!-- Transparent at the very bottom -->
+          <stop offset="0%"   stop-color="#4C1D95" stop-opacity="0"/>
+          <!-- Gradually bring the dark color in -->
+          <stop offset="25%"   stop-color="#4C1D95" stop-opacity="0.25"/>
+          <stop offset="50%"  stop-color="#4C1D95" stop-opacity="0.5"/>
+          <stop offset="75%"  stop-color="#4C1D95" stop-opacity="0.75"/>
+          <!-- Fully visible at the top -->
+          <stop offset="100%" stop-color="#4C1D95" stop-opacity="1"/>
 
     </linearGradient>
 
