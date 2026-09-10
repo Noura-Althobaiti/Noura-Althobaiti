@@ -10,16 +10,16 @@
     <linearGradient id="gradient"
                     x1="0%" y1="100%"
                     x2="0%" y2="0%">
-
           <!-- Transparent at the very bottom -->
           <stop offset="0%"   stop-color="#4C1D95" stop-opacity="0"/>
           <!-- Gradually bring the dark color in -->
-          <stop offset="25%"   stop-color="#4C1D95" stop-opacity="0.25"/>
-          <stop offset="50%"  stop-color="#4C1D95" stop-opacity="0.5"/>
-          <stop offset="75%"  stop-color="#4C1D95" stop-opacity="0.75"/>
+          <stop offset="15%"  stop-color="#4C1D95" stop-opacity="0.2"/>
+          <stop offset="35%"  stop-color="#4C1D95" stop-opacity="0.45"/>
+          <stop offset="55%"  stop-color="#4C1D95" stop-opacity="0.75"/>
+          <stop offset="75%"  stop-color="#4C1D95" stop-opacity="0.9"/>
           <!-- Fully visible at the top -->
           <stop offset="100%" stop-color="#4C1D95" stop-opacity="1"/>
-
+         
     </linearGradient>
 
     <!-- Typing clip -->
